@@ -10,8 +10,6 @@ switch (argv._[0]) {
             console.log(`Monto a cobrar:        ${colors.blue('$ '+resultado.total)}`);
         }).catch(e => console.log(e.red));
 
-
-
         break;
     default:
         console.log('No se ha ingresado un comando\nPuede ejecutar el comando --help para ver la lista de comandos disponibles');
